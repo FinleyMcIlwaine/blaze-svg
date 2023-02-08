@@ -1,7 +1,7 @@
 module Text.Blaze.Svg.Internal where
 
-import           Control.Monad.State
-import           Data.Monoid         (mappend, mempty)
+import           Control.Monad       (join)
+import           Control.Monad.State (State, modify, runState)
 
 import           Text.Blaze
 
